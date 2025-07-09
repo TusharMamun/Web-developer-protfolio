@@ -7,11 +7,26 @@
       "wdth" 100;
   }
   /* shared sytyle */
+  .container{
+
+  }
+  .section-titel{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+  }
+  .section-description{
+    font-size: 18px;
+    color: #757575;
+  }
   .text-prymary{
     color: #FD6E0A;
   }
   .text-dark2{
     color: #474747;
+  }
+  .text-center{
+    text-align: center;
   }
   .btn-prymary{
     background-color:#FD6E0A ;
@@ -22,6 +37,9 @@
     border-radius: 5px;
     border: none;
 
+  }
+  .Secandery-bg-color{
+    background-color: #eec6aa;
   }
   .header-Bg-img{
     background-image: url(../images/developer.png),url(../images/header_bg.png);
@@ -78,4 +96,74 @@ margin-right:51px ;
     justify-content: space-around;
     margin: 0 35px 0 200px;
     align-items: center;
+}
+
+/* main sylte */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* About Style */
+.about-section{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.item-description{
+    font-weight: 600;
+
+}
+.abou-items{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+.skild-container{
+  display: flex;
+  gap: 24px;
+}
+.skil{
+  padding: 30px;
+ box-shadow: 0px 6px 50px 0 gray;
+ border-radius: 5px;
+}
+main section{
+  margin: 130px 0;
+}
+/* Exprerence Section */
+.resume-container{
+  display: flex;
+  gap: 24px;
+ 
+}
+.resume-container .exprence{
+  padding: 0px 0 0 25px;
+}
+/* fotter style */
+footer{
+  display: flex;
+  gap: 100px;
+  padding: 130px 230px ;
+  align-items: center;
+}
+footer input[type="text"],footer input[type="email"],footer textarea{
+
+  border-radius: 5px;
+  background-color: white;
+display: block;
+width: 100%;
+padding: 25px 20px;
+margin-bottom: 24px;
+border: none;
+}
+.footer-calmn{
+  width: 50%;
+}
+.end{
+  height: 20px;
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 22px;
 }
